@@ -7,7 +7,7 @@ class Point{
 public:
 
         Point() { cout<<"Point constructor"<<endl; }
-        virtual ~Point()= 0;
+        virtual ~Point()= 0;    // if define desctructor as virtual ~Point();  it would not change the output content.
 
 } ;
 
